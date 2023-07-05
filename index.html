@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav">
+            <div class="nav-items" >
+                <h1 class="nav-title">Profile</h1>
+                <ul class="nav-links">
+                    <li>  <a href="#"> <i class="fa-solid fa-house-chimney fa-beat-fade"></i> Home</a></li>
+                    <li><a href="Profile_Page.html" class="active"><i class="fa-solid fa-user fa-beat-fade"></i></i>&nbsp My Profile</a></li>          
+                    <li><a href="#"><i class="fa-solid fa-user-plus fa-beat-fade"></i></i></i>&nbspFind Connections</a></li>
+                </ul>
+            </div>
+            <ul class="nav-links">
+                <li><button class="btn"><i class="fa-solid fa-right-from-bracket fa-beat"></i></i>&nbsp Sign Out</button></li>
+            </ul>
+        </div> 
+    </header>
+    <main class="main">
+    <!-- left column -->
+        <div class="container1">
+            <div class="user-card">
+                    <div class="card-header">
+                        <img src="https://i.imgur.com/HviyXom.png" alt="jane-medium-avatar" class="avatar-m">
+                    </div>
+                    <div class="card-body">
+                    <h1 class="user">Omar Hanchi</h1>
+                    <h3>
+                        <i id="gps" class="fa-solid fa-location-dot fa-bounce fa-lg"></i>
+                        Seattle
+                    </h3>
+                    <p>Developer | Engineer | Problem Solver<br>
+                    Master of shadows and the Internet!</p>
+                    <p id="edit">
+                        <a href="#">
+                            <i id="setting" class="fa-solid fa-gear fa-spin"></i> 
+                            edit profile
+                        </a>
+                    </p>
+                    </div>
+            </div>
+            <div class="card">
+                <div class="header">
+                    Education
+                </div>
+                <div class="card-body">
+                    <h2>Coding Dojo Full Stack Bootcamp</h2>
+                    <p class="dates">june  2023 - Feb 2023</p>
+                    <p>Triple Black Belt in Pyton, C#, and MERN...</p>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- right column -->
+        <div class="container2">
+            <div class="card">
+                <div class="header">
+                    <span class="connections">2</span>
+                    Connection Requests
+                </div>
+                <div class="connect-body1">
+                    <div class="user-line">
+                        <span class="start">
+                            <img src="https://i.imgur.com/HviyXom.png" alt="todd" class="avatar-s">
+                            <span>Todd E.</span>
+                        </span>
+                        <span class="end">
+                            <i id="check" class="fa-solid fa-circle-check fa-beat-fade"></i>
+                            <i id="uncheck" class="fa-solid fa-circle-xmark"></i>
+                        </span>
+                    </div>
+                    <div class="user-line">
+                        <span class="start">
+                            <img src="https://i.imgur.com/HviyXom.png" alt="phil" class="avatar-s">
+                            <span>Phil K.</span>
+                        </span>
+                        <span class="end">
+                            <i id="check" class="fa-solid fa-circle-check fa-beat-fade"></i>
+                            <i id="uncheck" class="fa-solid fa-circle-xmark"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="connect">
+                <div class="card">
+                    <div class="header">
+                        <span class="connections">500+</span>
+                        Your Connections
+                    </div>
+                    <div class="connect-body2">
+                        <div class="user-line">
+                            <span class="start">
+                                <img src="https://i.imgur.com/HviyXom.png" alt="adrien" class="avatar-s">
+                                <span>Adrien D.</span>
+                            </span>
+                        </div>
+                        <div class="user-line">
+                            <span class="start">
+                                <img src="https://i.imgur.com/HviyXom.png" alt="anne" class="avatar-s">
+                                <span>Anne J.</span>
+                            </span>
+                        </div>
+                        <div class="user-line">
+                            <span class="start">
+                                <img src="https://i.imgur.com/HviyXom.png" alt="alayne" class="avatar-s">
+                                <span>Alayne T.</span>
+                            </span>
+                        </div>
+                        <div class="user-line">
+                            <span class="start">
+                                <img src="https://i.imgur.com/HviyXom.png" alt="arry" class="avatar-s">
+                                <span>Arry Y.</span>
+                            </span>
+                        </div>
+                        <div class="footer1">
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="footer2">
+        <i class="fa-solid fa-lines-leaning"></i>
+    </div>
+</html>
